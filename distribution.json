@@ -1,0 +1,49 @@
+{
+  "rss": "https://bl-modern.ru", 
+  "servers": [
+    {
+      "id": "my-cool-server",
+      "name": "bl-modern",
+      "description": "Описание сервера для игроков",
+      "icon": "https://bl-modern.ru/download/server-icon.png",
+      "address": "46.174.54.250:25565",
+      "discord": {
+        "shortId": "твой_дискорд",
+        "largeImageText": "Играет на сервере"
+      },
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "game-files-zip",
+          "name": "Основной архив сборки",
+          "type": "Library",
+          "artifact": {
+            "url": "https://bl-modern.ru/download/game-assets.zip",
+            "size": 713466204,
+            "MD5": "8831C7E0F67C9311BA84AF16CCC61CB8"
+          },
+          "subModules": [],
+          "options": [
+            {
+              "id": "extract-zip",
+              "name": "Авто-распаковка",
+              "type": "Extractable",
+              "def": true
+            }
+          ]
+        },
+        {
+          "id": "forge-version",
+          "name": "Forge 1.20.1",
+          "type": "Forge",
+          "artifact": {
+            "url": "https://bl-modern.ru/download/forge-1.20.1-47.4.13-installer.jar",
+            "size": 8806153,
+            "MD5": "84A3502CB58ACBFD26C05B36A5CE6B35"
+          }
+        }
+      ]
+    }
+  ]
+}
