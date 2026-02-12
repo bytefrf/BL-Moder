@@ -23,7 +23,8 @@
           "artifact": {
             "url": "https://bl-modern.ru/download/game-assets.zip",
             "size": 713466204,
-            "MD5": "8831C7E0F67C9311BA84AF16CCC61CB8"
+            "MD5": "8831C7E0F67C9311BA84AF16CCC61CB8",
+			"path": "game-assets.zip" 
           },
           "subModules": [],
           "options": [
