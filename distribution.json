@@ -19,7 +19,7 @@
         {
           "id": "game-files-zip",
           "name": "Основной архив сборки",
-          "type": "Library",
+          "type": "File",
           "artifact": {
             "url": "https://bl-modern.ru/download/game-assets.zip",
             "size": 713466204,
